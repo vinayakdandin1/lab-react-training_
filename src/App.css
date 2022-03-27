@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.card-container {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+  width: 30vw;
+}
+
+.card-detail-container p {
+  margin: 0;
+  /* padding: 0; */
+}
+
+.card-detail-container {
+  padding-top: 10px;
+  padding-left: 20px;
+  text-align: left;
+}
